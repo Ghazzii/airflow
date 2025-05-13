@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/ghazi/OneDrive/Bureau/airflow/mlruns/0/be229276989d45d2a27116292ce153d1/artifacts
+end_time: 1745841146964
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be229276989d45d2a27116292ce153d1
+run_name: rare-colt-114
+run_uuid: be229276989d45d2a27116292ce153d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745841126552
+status: 3
+tags: []
+user_id: ghazi

@@ -1,0 +1,7 @@
+{"timestamp":"2025-04-26T12:10:40.159286","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-04-26T12:10:40.160081","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/bigger_test_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-04-26T12:10:40.224227","level":"info","event":"Done. Returned value was: load.load_success","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-04-26T12:10:40.224403","level":"info","event":"Branch into load.load_success","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-04-26T12:10:40.225313","level":"info","event":"Following branch {'load.load_success'}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-04-26T12:10:40.225578","level":"info","event":"Skipping tasks [('load.load_empty', -1)]","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-04-26T12:10:40.225993","level":"info","event":"Skipping downstream tasks.","logger":"task"}
