@@ -1,0 +1,52 @@
+###############################################################################
+# 1. Python artefacts
+###############################################################################
+# compiled byte-code
+__pycache__/
+*.py[cod]
+*.pyo
+# distribution / build directories
+build/
+dist/
+*.egg-info/
+.eggs/
+# virtual-envs (adapt the names you actually use)
+env/
+venv/
+.venv/
+.Python
+
+###############################################################################
+# 2. Airflow and logging
+###############################################################################
+# Airflow task / scheduler logs
+logs/
+# any DAG-level __pycache__ left in dags/
+dags/*/__pycache__/
+# task-attempt log files you showed in VS Code
+*.log
+
+###############################################################################
+# 3. Configuration & secrets
+###############################################################################
+.env          # your environment variables
+*.env         # any other *.env you might create
+
+###############################################################################
+# 4. Jupyter / data exploration
+###############################################################################
+.ipynb_checkpoints/
+
+###############################################################################
+# 5. IDE / editor metadata
+###############################################################################
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+###############################################################################
+# 6. OS-specific cruft
+###############################################################################
+.DS_Store      # macOS
+Thumbs.db      # Windows
